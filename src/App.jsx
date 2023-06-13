@@ -30,7 +30,7 @@ function App() {
   }
 
   return (
-   <div>
+   <div className='container'>
     <header className='header'>
     <div className='app'>
       <h1 className='app__title'>Users CRUD</h1>
