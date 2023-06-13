@@ -61,6 +61,7 @@ function App() {
         ))
       }
     </div>
+      <link rel="stylesheet" href="https://github.com/Jalmar01/cuarto_entregavbe_react" />  
    </div>
   )
 }
