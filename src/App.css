@@ -1,0 +1,52 @@
+.header {
+    width: 100%;
+    min-width: 32rem;
+    display: flex;
+    justify-content: center; 
+}
+
+.app {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2em;
+    margin-bottom: 1em;
+    margin-left: 2.2em;
+    margin-right: 2.2em; 
+
+}
+
+.app__title {
+    color: black;
+    width: 180px;
+    height:30px;
+    font-size: 1.5em; 
+    border-radius: 0.2em; 
+    text-align: center;
+    
+}
+
+.app__btn {
+    font-size: 0.5em;
+    width: 200px;  
+    height: 30px;
+    background-color: rgb(43, 43, 120);
+    box-shadow: none;
+    border-radius: 0.8em;
+    gap: 1em;
+    cursor: pointer;
+    filter: grayscale(0.5);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.app__btn:hover {
+    filter:grayscale(0) ;
+}
+
+.app__btn h2 {
+    color: white;
+}

@@ -1,0 +1,67 @@
+.card__container {
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-rows: auto;
+    place-items: center;
+    gap: 1rem;  
+    margin: 0 auto; 
+}
+
+.card {
+    background-color: white;
+    min-width: 250px;
+    border: 0.1em solid #ccc;
+    border-radius: 0.5rem;
+    gap: 1em;
+    margin-left: 2.2em;
+    margin-right: 2.2em;
+}
+
+.card__title {
+    text-align: center;
+}
+
+.card__label {
+    display: flex;
+    color: #ccc;
+    margin-left: 0.5em;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+}
+
+.card__value {
+    margin-left: 0.5em;
+}
+
+.card__linea {
+    width: 90%;
+    border: 0.1em solid #0009;
+    margin-left: 0.5em;
+}
+
+.card__container-btn {
+    display: flex;
+    justify-content: right;
+    margin-right: 0.5em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    gap: 0.2em;
+}
+
+.card__btn-delete {
+    background-color: rgb(250, 43, 43);
+    padding: 0.8em;
+    border-radius: 0.5em;
+}
+
+.card__btn-edit {
+    background-color: rgb(43, 43, 120);
+    padding: 0.8em;
+    border-radius: 0.5em;
+}
+.bx {
+    color: white;
+    font-size: 1.1em;
+}
+
