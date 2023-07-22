@@ -1,12 +1,9 @@
-.container {
-    margin-bottom: 2em;
-}
-
 
 .header {
     width: 100%;
     min-width: 32rem;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center; 
 }
 
@@ -14,12 +11,9 @@
     width: 70%;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: center; 
     margin-top: 2em;
     margin-bottom: 1em;
-    margin-left: 2.2em;
-    margin-right: 2.2em; 
-
 }
 
 .app__title {
